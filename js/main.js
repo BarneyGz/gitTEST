@@ -39,13 +39,13 @@ ${repo.description}
 			<li>
 				<button class="reposlist__block__readmore" data-toggle="modal" data-target="#Test">Read more...</button>
 					<ul class="${repo.id}">
-						<li class="reposlist__li">Name: ${repo.name} <br></li>
-						<li class="reposlist__li">Full Name: ${repo.full_name} <br></li>
-						<li class="reposlist__li">Clone: ${repo.clone_url} <br></li>
-						<li class="reposlist__li">Date of creation: ${repo.created_at} <br></li>
-						<li class="reposlist__li">Language: ${repo.language} <br></li>
-						<li class="reposlist__li">Open issues: ${repo.open_issues_count} <br></li>
-						<li class="reposlist__li">Forks count: ${repo.forks_count} <br></li>
+						<li class="reposlist__li"><b>Name: </b> ${repo.name} <br></li>
+						<li class="reposlist__li"><b>Full Name: </b>${repo.full_name} <br></li>
+						<li class="reposlist__li"><b>Clone:</b> ${repo.clone_url} <br></li>
+						<li class="reposlist__li"><b>Date of creation:</b> ${repo.created_at} <br></li>
+						<li class="reposlist__li"><b>Language: </b><span style='color:#ffd800;'>${repo.language}</span> <br></li>
+						<li class="reposlist__li"><b>Open issues:</b> ${repo.open_issues_count} <br></li>
+						<li class="reposlist__li"><b>Forks count:</b> ${repo.forks_count} <br></li>
 					</ul>
 			</li>
 		</ul>
