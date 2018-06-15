@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#searchUser {
+	width: 400px;
+    height: 30px;
+	border-radius: 5px;
+	border: 1px solid #c7c7c7; 
+	outline:none;
+	padding: 2px 15px;
+}
+.result {
+margin-top:30px;	
+}
+
+.content {
+	margin: 50px;
+	border:1px solid grey;
+	padding: 20px;
+}
+
+#content__image {
+	display: block;
+}
+
+.user__avatar{
+	width: 200px;
+	float: left;
+	margin: 10px 10px 10px 0;
+	border-radius: 100%;
+}
+
+
+.space {
+	height: 100px;
+}
+
+.reposlist {
+	margin-left: 30px;
+
+}
+.reposlist__block {
+	margin: 10px;
+	border: 1px solid #b7a1a1;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: inline-block;
+	max-width: 35%;
+	max-height: 205px;
+	
+}
+
+.repos__link {
+	text-decoration: none;
+	color:#00b7b7;
+}
+.reposlist__block__readmore {
+	background-color: #007bff;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	color:white;
+	font-size: 10px;
+	float: right;
+}
+
+.reposlist__li {
+	display: none;
+}
+
+
+li {
+	list-style-type: none;
+}
