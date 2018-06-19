@@ -48,19 +48,19 @@ margin-top:30px;
 }
 
 .reposlist {
+	padding: 5px;
 	margin-left: 30px;
 	background-color:white;
-	padding: 10px;
 
 }
 .reposlist__block {
 	background-color:#d9ecda;
-	margin: 10px;
+	margin: 20px auto;
 	border: 1px solid #b7a1a1;
 	border-radius: 5px;
 	padding: 5px 10px;
 	display: flow-root;
-	max-height: 500px;
+	width: 65%;
 	overflow-wrap: break-word;
 	
 }
@@ -76,7 +76,7 @@ margin-top:30px;
 	border: none;
 	border-radius: 5px;
 	color:white;
-	font-size: 10px;
+	font-size: 14px;
 	float: right;
 }
 
@@ -100,4 +100,21 @@ li {
 .reposlist__block__description {
 	color:black;
 	font-weight: bold;
+	background-color:#d9ecda;
+}
+
+.reposlist__li__language {
+	color:#ffa000;
+	background-color: #d9ecda;
+	font-weight: bold;
+}
+.reposlist__li__cloneURL, .reposlist__li__details {
+	background-color:#d9ecda;
+	
+}
+.content__title {
+	color:white;
+	text-align: center;
+	margin-top:50px;
+	font-size:25px;
 }
