@@ -18,7 +18,7 @@
 .result {
 	background-color:#f4f7fc;
 	margin-top:30px;	
- 	monospace;
+ 	font-family: monospace;
 }
 
 .content {
